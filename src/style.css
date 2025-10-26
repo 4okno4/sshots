@@ -1,0 +1,18 @@
+/* Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Небольшие глобальные улучшения */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+/* Контейнер приложения не ограничиваем, секции сами задают отступы */
+#app {
+  @apply w-full;
+}
